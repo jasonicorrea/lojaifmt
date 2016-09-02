@@ -1,4 +1,4 @@
 <?php
-include './cabecalho.php';
+  include './cabecalho.php';
 ?>
     
