@@ -31,7 +31,7 @@
                 </tr>
                 <tr>
                     <td>Telefone:</td>
-                    <td> <input class="form-control" type="text" name="telefone"/></td>                    
+                    <td> <input class="form-control" type="text" maxlength="11"  name="telefone"/></td>                    
                 </tr>
                 <tr>
                     <td>Endereço:</td>
