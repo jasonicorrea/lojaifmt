@@ -1,17 +1,21 @@
+<?php include 'cabecalho.php'; 
+?>
 <html>
 <head>
-	<meta charset="utf-8" />
+	
 	<title>www.consertacel.com</title>
 </head> 
-<body> <center>
-<form name="Form" method="post" id="formulario" >
-	
+<body> 
+    <form name="Form" method="post" id="formulario" ><center>
+            <center>
             <td>Pesquisar Cliente:</td>
             <input type="text" class="input_text" name="pesquisar" id="pc"/>
-                <input type="button" class="button" value="Pesquisar" />
+            <td><input class="btn btn-primary" type="submit" value="Pesquisar"/></td>
+            </center>       
                 <label><br></br> 
+                  
                     <td>Nome Completo</td>
-                    <input type="text" class="input_text" name="nome" id="name"/>    
+                    <input type="text"  class="input_text" name="nome" id="name"/>    
 		</label>
  
 		<label>
@@ -26,13 +30,13 @@
  
 		<label>
 			 <td>OS.Ativa</td>
-			<input type="text" class="input_text" name="assunto" id="Os.Ativa"/>
+			<input type="text" class="input_text" name="Os" id="Os.Ativa"/>
                 </label>    
-                
+
                 
 	
-</form> 
- </center>
+    </form></center>
+
 </body>
 </html>
 
