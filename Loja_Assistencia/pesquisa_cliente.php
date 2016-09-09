@@ -4,7 +4,7 @@
 	<title>www.consertacel.com</title>
 </head> 
 <body> <center>
-<form name="Form" method="post" id="formulario">
+<form name="Form" method="post" id="formulario" >
 	
             <td>Pesquisar Cliente:</td>
             <input type="text" class="input_text" name="pesquisar" id="pc"/>
