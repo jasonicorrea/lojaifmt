@@ -1,26 +1,81 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link href="bootstrap/css/bootstrap.css" rel="stylesheet"/>
-        <link href="bootstrap/css/style.css" rel="stylesheet"/>  
-        <script src="bootstrap/js/jqueryver1.min.js"></script>
-        <script src="bootstrap/js/bootstrap.js"></script>
+    <head>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="bootstrap/js/jquery.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
-        
-        
+        <link rel="stylesheet" href="bootstrap/dist/css/bootstrap-submenu.min.css">
+        <script src="bootstrap/dist/js/bootstrap-submenu.min.js"></script>
     </head>
     <body>
-<div class="dropdown">
-  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-  <span class="caret"></span></button>
-  <ul class="dropdown-menu">
-    <li><a href="#">HTML</a></li>
-    <li><a href="#">CSS</a></li>
-    <li><a href="#">JavaScript</a></li>
-  </ul>
-</div>
-    </body>
-     
-    
+        <table >
+            <tr>
+                <td>
+                    <div  class="dropdown m-b">
+                        <button class="btn btn-danger" type="button" data-toggle="dropdown">
+                            Cadastros
+                            <span class="caret"></span>
+                        </button>
+
+                        <ul class="dropdown-menu" role="menu">                            
+                            <li class="dropdown-submenu">
+                                <a tabindex="0" data-toggle="dropdown">Cadastrar</a>
+                                <ul class="dropdown-menu">
+                                    <li><a tabindex="0">Funcionario</a></li>
+                                    <li><a tabindex="0">Cliente</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </td>
+                <td>
+                    <div >
+                        <button class="btn btn-danger" type="button">
+                            Vendas
+                        </button>
+                  </div>
+                </td>
+                <td>
+                    <div  class="dropdown m-b">
+                        <button class="btn btn-danger" type="button" data-toggle="dropdown">
+                            Consulta
+                            <span class="caret"></span>
+                        </button>
+
+                        <ul class="dropdown-menu" role="menu">                            
+                                    <li><a tabindex="0">Ordem de Servico</a></li>
+                                    <li><a tabindex="0">Cliente</a></li>
+                                    <li><a tabindex="0">Funcionario</a></li>
+
+                        </ul>
+
+                    </div>
+                </td>
+                <td>
+                    <div >
+                        <button class="btn btn-danger" type="button">
+                            Relatorios
+                        </button>
+                  </div>
+
+                </td>                
+                <td>
+                    <div >
+                        <button class="btn btn-danger" type="button">
+                            Sair
+                        </button>
+                  </div>
+                </td>                
+            </tr>
+        </table>                    
+        <script>
+
+            $('.dropdown-submenu > a').submenupicker();
+
+        </script>
+
+    </body>     
 </html>
-    
