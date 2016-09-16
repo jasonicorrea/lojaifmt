@@ -13,12 +13,12 @@
             <tr>
                 <td>
                     <div  class="dropdown m-b">
-                        <button class="btn btn-link" type="button" data-toggle="dropdown">
+                        <button class="btn btn-primary" type="button" data-toggle="dropdown">
                             Cadastros
                             <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" role="menu">                            
-                                    <li><a tabindex="0">Funcionario</a></li>
+                            <li><a href="cadastrar_func_formulario.php" tabindex="0">Funcionario</a></li>
                                     <li><a tabindex="0">Cliente</a></li>                                    
                         </ul>
 
@@ -26,14 +26,14 @@
                 </td>
                 <td>
                     <div >
-                        <button class="btn btn-link" type="button">
+                        <button class="btn btn-primary" type="button">
                             Vendas
                         </button>
                   </div>
                 </td>
                 <td>
                     <div  class="dropdown m-b">
-                        <button class="btn btn-link" type="button" data-toggle="dropdown">
+                        <button class="btn btn-primary" type="button" data-toggle="dropdown">
                             Consulta
                             <span class="caret"></span>
                         </button>
@@ -47,11 +47,8 @@
                     </div>
                 </td>
                 <td>
-                    
-                    
-                    
                     <div >
-                        <button class="btn btn-link" type="button">
+                        <button class="btn btn-primary" type="button">
                             Sair
                         </button>
                   </div>
