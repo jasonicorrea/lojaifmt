@@ -17,8 +17,8 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cadastrar <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Funcionario</a></li>
-                                <li><a href="#">Cliente</a></li>
+                                <li><a href="cadastrar_func_formulario.php">Funcionario</a></li>
+                                <li><a href="cadastrar_clientes.php">Cliente</a></li>
                             </ul>
                         </li>
                         <li><a href="#">Vendas</a></li>                                            
@@ -26,7 +26,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Consultas <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Ordem de Serviço </a></li>
-                                <li><a href="#">Cliente</a></li>
+                                <li><a href="pesquisa_cliente.php">Cliente</a></li>
                                 <li><a href="#">Funcionário</a></li>
                             </ul>
                         </li>
