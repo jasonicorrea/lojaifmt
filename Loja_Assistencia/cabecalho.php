@@ -50,12 +50,11 @@
                         </li>
                     </ul>
 
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav ">
                         <li>
                             <a>  
                                 <SCRIPT LANGUAGE="JAVASCRIPT">
                                 <!--
-
                                 var now = new Date();
                                 var mName = now.getMonth() +1 ;
                                 var dName = now.getDay() +1;
@@ -83,9 +82,7 @@
                                 if(yearNr < 2000) {Year = 1900 + yearNr;}
                                 else {Year = yearNr;}
                                 var todaysDate =(" " + Day + ", " + dayNr + " de " + Month + " de " + Year);
-
                                 document.write('  '+todaysDate);
-
                                 //-->
                                 </SCRIPT>  
                                 <span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span>                                
