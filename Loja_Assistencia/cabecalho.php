@@ -13,34 +13,27 @@
             <tr>
                 <td>
                     <div  class="dropdown m-b">
-                        <button class="btn btn-danger" type="button" data-toggle="dropdown">
+                        <button class="btn btn-link" type="button" data-toggle="dropdown">
                             Cadastros
                             <span class="caret"></span>
                         </button>
-
                         <ul class="dropdown-menu" role="menu">                            
-                            <li class="dropdown-submenu">
-                                <a tabindex="0" data-toggle="dropdown">Cadastrar</a>
-                                <ul class="dropdown-menu">
                                     <li><a tabindex="0">Funcionario</a></li>
-                                    <li><a tabindex="0">Cliente</a></li>
-                                </ul>
-                            </li>
-
+                                    <li><a tabindex="0">Cliente</a></li>                                    
                         </ul>
 
                     </div>
                 </td>
                 <td>
                     <div >
-                        <button class="btn btn-danger" type="button">
+                        <button class="btn btn-link" type="button">
                             Vendas
                         </button>
                   </div>
                 </td>
                 <td>
                     <div  class="dropdown m-b">
-                        <button class="btn btn-danger" type="button" data-toggle="dropdown">
+                        <button class="btn btn-link" type="button" data-toggle="dropdown">
                             Consulta
                             <span class="caret"></span>
                         </button>
@@ -49,22 +42,13 @@
                                     <li><a tabindex="0">Ordem de Servico</a></li>
                                     <li><a tabindex="0">Cliente</a></li>
                                     <li><a tabindex="0">Funcionario</a></li>
-
                         </ul>
 
                     </div>
                 </td>
                 <td>
                     <div >
-                        <button class="btn btn-danger" type="button">
-                            Relatorios
-                        </button>
-                  </div>
-
-                </td>                
-                <td>
-                    <div >
-                        <button class="btn btn-danger" type="button">
+                        <button class="btn btn-link" type="button">
                             Sair
                         </button>
                   </div>
