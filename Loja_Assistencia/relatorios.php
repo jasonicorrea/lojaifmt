@@ -102,8 +102,7 @@
     <td class="tg-yw4l"></td>
     <td class="tg-yw4l"></td>
   </tr>
-</table></div>
-</div>
+</table>
 </form>
 </center></body>
 </html>

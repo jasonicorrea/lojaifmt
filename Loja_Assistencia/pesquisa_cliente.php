@@ -30,8 +30,8 @@
 
                     <label>
                         <td>OS.Ativa</td><br>
-                        <input type="text" class="input_text" name="Os" style="margin-right: 30px" id="Os.Ativa"/> 
-                        <input class="btn btn-primary" type="submit" tyle="margin-" value="Pesquisar"/>
+                        <input type="text" class="input_text" name="Os" style="margin-right: 25px" id="Os.Ativa"/> 
+                        <input class="btn btn-primary" type="submit" value="Pesquisar"/>
                     </label>
 
                     </form>
@@ -40,7 +40,7 @@
                     <style type="text/css">
                         .tg  {border-collapse:collapse;border-spacing:0;}
                         .tg td{font-family:Arial, sans-serif;font-size:14px;padding:11px 20px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-                        .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:11px 20px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+                        .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:11px 68px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
                         .tg .tg-yw4l{vertical-align:top}
                     </style>
 
@@ -93,9 +93,9 @@
                                 <td class="tg-yw4l"></td>
                                 <td class="tg-yw4l"></td>
                               
-                            </tr>
+                            </tr><br><br><br>
                         </table>
-                    </form>
+                    </form><br><br><br><br>
                     <input class="btn btn-primary" type="submit" style="margin-right: 20px" value="Ver OS"/>
                     <input class="btn btn-primary" type="submit" style="margin-right: 20px" value="Voltar"/>
                 </center>
