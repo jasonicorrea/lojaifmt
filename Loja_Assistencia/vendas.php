@@ -33,7 +33,9 @@ include 'cabecalho.php';
                 <td class="tg-yw4l"></td>
                 <td class="tg-yw4l"></td>
                 <td class="tg-yw4l"></td>
-                <td class="tg-yw4l"></td>
+                <td class="tg-yw4l" > 
+                    <input type="checkbox">
+                </td>
             </tr>
             <tr>
                 <td class="tg-yw4l"></td>
@@ -41,7 +43,9 @@ include 'cabecalho.php';
                 <td class="tg-yw4l"></td>
                 <td class="tg-yw4l"></td>
                 <td class="tg-yw4l"></td>
-                <td class="tg-yw4l"></td>
+                <td class="tg-yw4l" > 
+                    <input type="checkbox">
+                </td>
             </tr>
             <tr>
                 <td class="tg-yw4l"></td>
@@ -49,7 +53,9 @@ include 'cabecalho.php';
                 <td class="tg-yw4l"></td>
                 <td class="tg-yw4l"></td>
                 <td class="tg-yw4l"></td>
-                <td class="tg-yw4l"></td>
+                <td class="tg-yw4l" > 
+                    <input type="checkbox">
+                </td>
             </tr>
             <tr>
                 <td class="tg-yw4l"></td>
@@ -57,7 +63,9 @@ include 'cabecalho.php';
                 <td class="tg-yw4l"></td>
                 <td class="tg-yw4l"></td>
                 <td class="tg-yw4l"></td>
-                <td class="tg-yw4l"></td>
+                <td class="tg-yw4l" > 
+                    <input type="checkbox">
+                </td>
             </tr>
             <tr>
                 <td class="tg-yw4l"></td>
@@ -65,15 +73,17 @@ include 'cabecalho.php';
                 <td class="tg-yw4l"></td>
                 <td class="tg-yw4l"></td>
                 <td class="tg-yw4l"></td>
-                <td class="tg-yw4l"></td>
+                <td class="tg-yw4l" > 
+                    <input type="checkbox">
+                </td>
             </tr>
         </table>            
     </form>
-    
+
     <label id="cadastrar">
         <input class="btn btn-primary" type="submit" value="Cadastrar"/>
     </label>
-        
+
 </center>
 </body>
 </html>
