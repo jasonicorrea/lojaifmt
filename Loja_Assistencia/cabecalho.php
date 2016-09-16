@@ -10,8 +10,19 @@
     </head>
     <body>
        
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-inverse">
             <div class="container-fluid">
+                
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.php">Inicio</a>
+                </div>                
+                
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li class="dropdown">
@@ -30,8 +41,7 @@
                                 <li><a href="#">Funcionário</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Sair</a></li>                                            
-                        
+                        <li><a href="#">Sair</a></li>                                                                    
                     </ul>
                 </div>
             </div>
