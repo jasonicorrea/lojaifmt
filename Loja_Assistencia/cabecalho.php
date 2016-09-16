@@ -48,10 +48,13 @@
                                 <li><a href="#">Funcionário</a></li>
                             </ul>
                         </li>
+                    </ul>
+                    <ul class="nav navbar-nav pull-right">
                         <li><a href="#">Sair
                             <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
                             </a>
                         </li>                                                                    
+                        
                     </ul>
                 </div>
             </div>
