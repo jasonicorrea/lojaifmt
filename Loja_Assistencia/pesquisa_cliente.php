@@ -6,12 +6,14 @@
         <title>www.consertacel.com</title>
     </head> 
     <body> 
+        <div style="margin-top: 100px; margin-bottom: 50px">
         <form name="Form" method="post" id="formulario">
 
             <center>
+                <div style="margin-top: 100px; margin-bottom: 50px">
                 <p><h1>Pesquisar Cliente</h1></p>
+                </div>
 
-                <center><br></br><br></br> 
 
                     <label>
                         <td>Nome Completo</td><br>
@@ -45,7 +47,7 @@
                     </style>
 
                     <form method="post">
-                        <table class="tg" class="table-responsive">
+                        <table class="tg" style="margin-top: 50px; margin-bottom: 50px" class="table-responsive">
                             <tr>
                                 <th class="tg-yw4l" class="form-control">Nome</th>
                                 <th class="tg-yw4l" class="form-control">RG</th>
@@ -93,13 +95,14 @@
                                 <td class="tg-yw4l"></td>
                                 <td class="tg-yw4l"></td>
                               
-                            </tr><br><br><br>
+                            </tr>
                         </table>
-                    </form><br><br><br><br>
+                    </form>
+                    
                     <input class="btn btn-primary" type="submit" style="margin-right: 20px" value="Ver OS"/>
                     <input class="btn btn-primary" type="submit" style="margin-right: 20px" value="Voltar"/>
                 </center>
-            </center>
+        </div>        
     </body>
 </html>
 
