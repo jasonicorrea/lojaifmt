@@ -34,7 +34,7 @@
                                 <li><a href="cadastrar_clientes.php">Cliente</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Vendas
+                        <li><a href="vendas.php">Vendas
                                 <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>                                
                             </a>
                         </li>                                            
