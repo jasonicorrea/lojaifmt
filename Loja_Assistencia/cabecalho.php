@@ -43,7 +43,7 @@
                             <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Ordem de Serviço </a></li>
+                                <li><a href="relatorios.php">Ordem de Serviço </a></li>
                                 <li><a href="pesquisa_cliente.php">Cliente</a></li>
                                 <li><a href="#">Funcionário</a></li>
                             </ul>
