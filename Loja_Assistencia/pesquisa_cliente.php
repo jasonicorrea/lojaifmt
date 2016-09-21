@@ -1,43 +1,38 @@
 <?php include 'cabecalho.php';
 ?>
-<html>
-    <head>
+<div class="container">
+    <div class="Principal">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default" align="center">
+                    <div class="panel-heading" >
 
-        <title>www.consertacel.com</title>
-    </head> 
-    <body> 
-        <div style="margin-top: 100px; margin-bottom: 50px">
-        <form name="Form" method="post" id="formulario">
+                        <title > Pesquisar Cliente </title>
+                    </div>
 
-            <center>
-                <div style="margin-top: 100px; margin-bottom: 50px">
-                <p><h1>Pesquisar Cliente</h1></p>
-                </div>
+                    <h1>Pesquisar Cliente</h1>
 
 
-                    <label>
-                        <td>Nome Completo</td><br>
-                        <input type="text"  class="input_text" name="nome" id="name"/>    
-                    </label>
+                    <form method="post" action="xxxxxxxxx">
 
-                    <label>
-                        <td>RG</td><br>
-                        <input type="text" class="input_text" name="email" id="rg"/>
-                    </label>
+                        <table class="table-condensed" width="80%" align="center">
+                            <tr>
+                                <td>Nome:</td>
+                                <td colspan="6"><input class="form-control" type="text" name="nome" size="60"/></td>       
 
-                    <label>
-                        <td>CPF</td><br>
-                        <input type="text" class="input_text" name="assunto" id="cpf"/>
-                    </label>
-
-                    <label>
-                        <td>OS.Ativa</td><br>
-                        <input type="text" class="input_text" name="Os" style="margin-right: 25px" id="Os.Ativa"/> 
-                        <input class="btn btn-primary" type="submit" value="Pesquisar"/>
-                    </label>
+                            </tr>
+                            <tr>
+                                <td>RG:</td>
+                                <td> <input class="form-control" type="text"  name="rg" size="30" /></td>
+                                <td>CPF:</td>
+                                <td> <input class="form-control" type="text" name="cpf" size="30"/></td> 
+                                <td>Os. Ativa</td>
+                                <td> <input class="form-control" type="text" name="OS" size="30"/></td>   
+                                <td colspan="4"><input class="btn btn-primary pull-right"   type="submit" value="Pesquisar"/></td>
+                            </tr>                                             
+                        </table> 
 
                     </form>
-                 
 
                     <style type="text/css">
                         .tg  {border-collapse:collapse;border-spacing:0;}
@@ -53,56 +48,55 @@
                                 <th class="tg-yw4l" class="form-control">RG</th>
                                 <th class="tg-yw4l" class="form-control">CPF</th>
                                 <th class="tg-yw4l" class="form-control">OS Ativa</th>
-                                <th class="tg-yw4l" class="form-control">Ferramenta</th>
-                               
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                               
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                               
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                               
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                               
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                              
-                            </tr>
-                        </table>
-                    </form>
-                    
-                    <input class="btn btn-primary" type="submit" style="margin-right: 20px" value="Ver OS"/>
-                    <input class="btn btn-primary" type="submit" style="margin-right: 20px" value="Voltar"/>
-                </center>
-        </div>        
-    </body>
-</html>
+                                <th  class="tg-yw4l" class="form-control">Ferramenta</th>
 
+                            </tr>
+                            <tr>
+                                <td class="tg-yw4l"></td>
+                                <td class="tg-yw4l"></td>
+                                <td class="tg-yw4l"></td>
+                                <td class="tg-yw4l"></td>
+                                <td align="center" class="tg-yw4l"><input class="btn btn-primary"   type="submit" value="Editar"/></td>
+
+                            </tr>
+                            <tr>
+                                <td class="tg-yw4l"></td>
+                                <td class="tg-yw4l"></td>
+                                <td class="tg-yw4l"></td>
+                                <td class="tg-yw4l"></td>
+                                <td align="center"  class="tg-yw4l"><input class="btn btn-primary"   type="submit" value="Editar"/></td>
+
+                            </tr>
+                            <tr>
+                                <td class="tg-yw4l"></td>
+                                <td class="tg-yw4l"></td>
+                                <td class="tg-yw4l"></td>
+                                <td class="tg-yw4l"></td>
+                                <td align="center" class="tg-yw4l"><input class="btn btn-primary"   type="submit" value="Editar"/></td>
+
+                            </tr>
+                            <tr>
+                                <td class="tg-yw4l"></td>
+                                <td class="tg-yw4l"></td>
+                                <td class="tg-yw4l"></td>
+                                <td class="tg-yw4l"></td>
+                                <td align="center"  class="tg-yw4l"><input class="btn btn-primary"   type="submit" value="Editar"/></td>
+
+                            </tr>
+
+                        </table>
+                        <input class="btn btn-primary" type="submit" style="margin-right: 20px" value="Ver OS"/>
+                        <input class="btn btn-primary" type="submit" style="margin-right: 20px" value="Voltar"/>
+                    </form>
+                    </center>
+                </div>        
+                </body>
+                </html>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+</body>
+</html>
