@@ -7,7 +7,8 @@ class cliente {
     private $endereço;
     private $dataCad;
     private $cpf;
-    
+    private $fone;
+            
     
     
     function getNome() {
@@ -49,6 +50,16 @@ class cliente {
     function setCpf($cpf) {
         $this->cpf = $cpf;
     }
+    
+    function getFone() {
+        return $this->fone;
+    }
+
+    function setFone($fone) {
+        $this->fone = $fone;
+    }
+
+
 
 
 }
