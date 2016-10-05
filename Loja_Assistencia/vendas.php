@@ -34,6 +34,10 @@
                             <tr>
                                 <td>Data de abertura:</td>
                                 <td> <input class="form-control" type="date" name="abertura"/></td>   
+                                
+                            <tr>
+                                <td>Data Fecha:</td>
+                                <td> <input class="form-control" type="date" name="abertura"/></td>   
                             <tr>
                                 <td>Peças:</td>
                                 <td><input type="checkbox" name="pcs" value="tue"></td>
@@ -46,7 +50,23 @@
                                 <td><input type="checkbox" name="status" value="tue"></td>
                                 </td>
                             </tr>  
-
+                            <tr>
+                                <td>Subtotal:</td>
+                                <td> <input class="form-control" type="text" name="subtl"/></td>                    
+                            </tr>
+                            <tr>
+                                <td>Descontos:</td>
+                                <td> <input class="form-control" type="text" name="desc"/></td>                    
+                            </tr>
+                            <tr>
+                                <td>Descontos Total:</td>
+                                <td> <input class="form-control" type="text" name="desctl"/></td>                    
+                            </tr>
+                            <tr>
+                                <td>Total:</td>
+                                <td> <input class="form-control" type="text" name="total"/></td>                    
+                            </tr>
+                            
                             <tr>
                                 <td colspan="4"><input class="btn btn-primary pull-right"   type="submit" value="Cadastrar"/></td>
                             </tr>
