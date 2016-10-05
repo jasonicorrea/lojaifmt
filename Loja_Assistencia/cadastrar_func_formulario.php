@@ -17,7 +17,10 @@
             <table class="table-condensed" width="80%" align="center">
                 <tr>
                     <td>Nome:</td>
-                    <td colspan="4"><input class="form-control" type="text" name="nome" /></td>       
+                    <td colspan="3"><input class="form-control" type="text" name="nome" /></td>
+                    <td>Cargo:</td>
+                    <td><input class="form-control" type="text" name="cargo" /></td>       
+
 
                 </tr>
                 <tr class="form-inline form-group">
@@ -35,23 +38,35 @@
                 </tr>
                 <tr>
                     <td>Endereço:</td>
-                    <td> <input class="form-control" type="text" name="endereço"/></td>                    
+                    <td colspan="3"> <input class="form-control" type="text" name="endereço"/></td>
+                    <td>Numero:</td>
+                    <td> <input class="form-control" type="text" name="numero" maxlength=5/></td> 
+                </tr>
+                <tr>
+                    <td>Bairro:</td>
+                    <td> <input class="form-control" type="text" name="bairro"/></td>
+                    <td>Cidade:</td>
+                    <td> <input class="form-control" type="text" name="cidade" maxlength=5/></td> 
+                    <td>UF:</td>
+                    <td> <input class="form-control" type="text" name="uf" maxlength=5/></td> 
                 </tr>
                 <tr>
                     <td>CTPS:</td>
-                    <td> <input class="form-control" type="text" name="ctps"/></td>                    
-                </tr> 
-                <tr>
+                    <td colspan="2"> <input class="form-control" type="text" name="ctps"/></td>
                     <td>Data de Nascimento:</td>
-                    <td> <input class="form-control" type="date" name="nascimento"/></td>                    
+                    <td colspan="2"> <input class="form-control" type="date" name="nascimento"/></td>
                 </tr> 
-                <tr>
-                    <td>Data de Admissão:</td>
-                    <td> <input class="form-control" type="date" name="admissao"/></td>                    
-                </tr> 
-
+               
+                
 
                 <tr>
+                     <td>Data de Admissão:</td>
+                     <td > <input class="form-control" type="date" name="admissao"/></td>                    
+                    <td>Login:</td>
+                    <td> <input class="form-control" type="text" name="login"/></td>
+                    <td>Senha:</td>
+                    <td> <input class="form-control" type="text" name="senha" maxlength=5/></td> 
+                </tr>
 
 
 
@@ -62,10 +77,10 @@
 
 
                 <tr>
-                    <td colspan="4"> <input class="btn btn-primary pull-right" type="submit" value="Salvar"/></td>
+                    <td colspan="6"> <input class="btn btn-primary pull-right" type="submit" value="Salvar"/></td>
                 </tr>
 
-            </table>
+            </table >
 
 
 
