@@ -14,7 +14,17 @@ class ordem_servico {
     private $subtotalMao;
     private $total;
     private $obs;
-            
+    private $status;
+    
+    function getStatus() {
+        return $this->status;
+    }
+
+    function setStatus($status) {
+        $this->status = $status;
+    }
+
+                
     function getId() {
         return $this->id;
     }

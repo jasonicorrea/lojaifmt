@@ -3,7 +3,7 @@ include 'cabecalho.php';
 include 'bancodao.php';
 
 $bancodao = new bancodao($conexao);
-$bancodao = $bancodao->listaOs();
+$ordens = $bancodao->listaOs();
 
 
 ?>
@@ -106,7 +106,7 @@ th, td {
                                         <td class="tg-yw4l" class="form-control"></td>
                                     </tr>
                                     <?php
-                                    foreach ($bancodao as $value)
+                                    foreach ($ordens as $value)
                                             echo "<tr><td>" . $value->getId(). "</td>";
                                             echo "<td>" . $value->getNome() . "</td>";
                                             echo "<td>" . $value->getDataAber() . "</td>";

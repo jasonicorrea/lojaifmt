@@ -38,6 +38,26 @@ class bancodao {
         return mysqli_query($this->conexao, $sql);
     }    
     
-    
+    function listaOs(){
+        
+        $ordens = array();
+        
+        $sql = "select o.idos, o.status, o.oscol_dtaab, o.dtafec, o.cli_idcli, from os o";
+        $resultado = mysql_query($this->conexao, $sql);
+        
+        while ($ordemS = mysql_fetch_assoc($resultado)){
+            $o = new Ordem_servico();
+            
+            $o->setId($ordemS['id']);
+            $o->setStatus($ordemS['status']);
+            $o->setDataAber($ordemS['dataAber']);
+            $o->setDataFecha($ordemS['dataFec']);
+            $o->setCliente($ordemS['cliente']);
+            
+            array_push($ordens, $o);
+        }
+        
+        return $ordens;
+    }
     
 }
