@@ -1,4 +1,6 @@
 <?php
+
+    include 'conecta.php';
    
    function carregaArquivo($nomeArquivo){
        require_once ('model/'.$nomeArquivo.'.php');
