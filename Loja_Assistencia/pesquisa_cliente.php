@@ -58,31 +58,7 @@
                                 <td class="tg-yw4l"></td>
                                 <td align="center" class="tg-yw4l"><input class="btn btn-primary"   type="submit" value="Editar"/></td>
 
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td align="center"  class="tg-yw4l"><input class="btn btn-primary"   type="submit" value="Editar"/></td>
-
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td align="center" class="tg-yw4l"><input class="btn btn-primary"   type="submit" value="Editar"/></td>
-
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td align="center"  class="tg-yw4l"><input class="btn btn-primary"   type="submit" value="Editar"/></td>
-
-                            </tr>
+                            
 
                         </table>
                         <input class="btn btn-primary" type="submit" style="margin-right: 20px" value="Ver OS"/>
