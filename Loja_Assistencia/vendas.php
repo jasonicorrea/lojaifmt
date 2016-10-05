@@ -15,13 +15,10 @@
                     <h1>Cadastrar Ordem de Serviço</h1>
 
 
-                    <form method="post" action="xxxxxxxxx">
+                    <form method="get" action="relatorios.php">
 
                         <table class="table-condensed" width="80%" align="center">
-                            <tr>
-                                <td>Número da O.S:</td>
-                                <td><input class="form-control" type="text" name="os"/></td> 
-                            </tr>
+
                             <tr>
 
                                 <td>Cliente:</td>
@@ -35,26 +32,19 @@
                                 <td> <input class="form-control" type="text" name="obs"/></td>                    
                             </tr>
                             <tr>
+                                <td>Data de abertura:</td>
+                                <td> <input class="form-control" type="date" name="abertura"/></td>   
+                            <tr>
                                 <td>Peças:</td>
-                                <td> <input class="form-control" type="text" name="pçs"/></td>                    
-                                <td> <select class="form-control" name="status">                                
-                                        <option value="1">NÃO</option>                                 
-                                        <option value="1">NOVA</option>                                 
-                                        <option value="2">USADA</option>                                                                         
-                                    </select>
+                                <td><input type="checkbox" name="pcs" value="tue"></td>
                                 </td>
+                            </tr>  
 
                             </tr>
                             <tr>
                                 <td>Garantia:</td>
-                                <td> <input class="form-control" type="text" name="garantia"/></td>                    
-
-                                <td> <select class="form-control" name="status">                                
-                                        <option value="1">SIM</option>                                 
-                                        <option value="2">NÃO</option>                                                                         
-                                    </select>
+                                <td><input type="checkbox" name="status" value="tue"></td>
                                 </td>
-
                             </tr>  
 
                             <tr>
