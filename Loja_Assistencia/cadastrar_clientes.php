@@ -27,17 +27,44 @@
                             <td>CPF:</td>
                             <td> <input class="form-control" type="text" name="cpf" /></td> 
                         </tr>                                             
-                        <tr>
-
-                        </tr>
+                       
                         <tr>
                             <td>Telefone:</td>
                             <td> <input class="form-control" type="text" name="telefone"/></td>                    
                         </tr>
                         <tr>
                             <td>Endereço:</td>
-                            <td> <input class="form-control" type="text" name="endereço"/></td>                    
+                            <td> <input class="form-control" type="text" name="endereço" size="20"/></td>  
+                             <td>Numero:</td>
+                            <td> <input class="form-control" type="text" name="numero"size="30"/></td>  
+                             <td>Bairro:</td>
+                            <td> <input class="form-control" type="text" name="bairro"size="30"/></td>   
                         </tr>
+                                                
+                                             
+                         <tr>
+                            <td>Cidade:</td>
+                            <td> <input class="form-control" type="text" name="cidade"/></td> 
+                            <td>UF:</td>
+                            <td colspan="0"><input class="form-control" type="text" name="uf" size=""/></td> 
+                        </tr>  
+                        
+                                              
+                         <tr>
+                            <td>Telefone Móvel:</td>
+                            <td> <input class="form-control" type="text" name="nascimento"/></td>                    
+                        </tr>  
+                        
+                         <tr>
+                            <td>Telefone Fixo:</td>
+                            <td> <input class="form-control" type="text" name="nascimento"/></td>                    
+                        </tr>  
+                        
+                         <tr>
+                            <td>Email:</td>
+                            <td> <input class="form-control" type="text" name="nascimento"/></td>                    
+                        </tr>  
+                        
                         <tr>
                             <td>Data de Cadastro:</td>
                             <td> <input class="form-control" type="date" name="nascimento"/></td>                    
