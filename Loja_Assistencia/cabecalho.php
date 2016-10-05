@@ -1,3 +1,15 @@
+<?php
+   
+   function carregaArquivo($nomeArquivo){
+       require_once ('model/'.$nomeArquivo.'.php');
+       
+   }
+   
+   spl_autoload_register("carregaArquivo");
+   
+?>
+
+
 <html>
     <head>
         <meta charset="utf-8">
