@@ -11,7 +11,15 @@ class funcionario {
     private $dataNasc;
     private $dataAdmi;
     private $ativo;
-    
+    private $id;
+    private $login;
+    private $senha;
+    private $numero;
+    private $bairro;
+    private $cidade;
+    private $uf;
+    private $cargo;
+            
     function getNome() {
         return $this->nome;
     }
@@ -82,6 +90,70 @@ class funcionario {
 
     function setAtivo($ativo) {
         $this->ativo = $ativo;
+    }
+
+    function getId() {
+        return $this->id;
+    }
+
+    function getLogin() {
+        return $this->login;
+    }
+
+    function getSenha() {
+        return $this->senha;
+    }
+
+    function getNumero() {
+        return $this->numero;
+    }
+
+    function getBairro() {
+        return $this->bairro;
+    }
+
+    function getCidade() {
+        return $this->cidade;
+    }
+
+    function getUf() {
+        return $this->uf;
+    }
+
+    function getCargo() {
+        return $this->cargo;
+    }
+
+    function setId($id) {
+        $this->id = $id;
+    }
+
+    function setLogin($login) {
+        $this->login = $login;
+    }
+
+    function setSenha($senha) {
+        $this->senha = $senha;
+    }
+
+    function setNumero($numero) {
+        $this->numero = $numero;
+    }
+
+    function setBairro($bairro) {
+        $this->bairro = $bairro;
+    }
+
+    function setCidade($cidade) {
+        $this->cidade = $cidade;
+    }
+
+    function setUf($uf) {
+        $this->uf = $uf;
+    }
+
+    function setCargo($cargo) {
+        $this->cargo = $cargo;
     }
 
 
