@@ -1,7 +1,11 @@
 <?php include 'cabecalho.php';
 ?>
 <div class="container">
-    <div class="Principal">
+<div class="Principal">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default" align="center">
+                <div class="panel-heading" >
 
         <title>Cadastrar Funcionário </title>
 
@@ -13,14 +17,14 @@
             <table class="table-condensed" width="80%" align="center">
                 <tr>
                     <td>Nome:</td>
-                    <td colspan="3"><input class="form-control" type="text" name="nome" size="60"/></td>       
+                    <td colspan="4"><input class="form-control" type="text" name="nome" /></td>       
 
                 </tr>
                 <tr class="form-inline form-group">
                     <td>RG:</td>
                     <td> <input class="form-control" type="text"  name="rg" /></td>
                     <td>CPF:</td>
-                    <td colspan="3"> <input class="form-control" type="text" name="cpf" maxlength="11"/></td> 
+                    <td> <input class="form-control" type="text" name="cpf" maxlength="11"/></td> 
                 </tr>                                             
                 <tr>
 
@@ -68,8 +72,10 @@
 
 
 
-        </form>
-
+            </form>
+          </div>
+        </div>
+       </div>
     </div>
 </div>
 </body>
