@@ -7,7 +7,13 @@ class cliente {
     private $endereço;
     private $dataCad;
     private $cpf;
-    private $fone;
+    private $foneMovel;
+    private $id;
+    private $numero;
+    private $cidade;
+    private $uf;
+    private $foneFixo;
+    private $email;
             
     
     
@@ -57,6 +63,62 @@ class cliente {
 
     function setFone($fone) {
         $this->fone = $fone;
+    }
+
+    function getFoneMovel() {
+        return $this->foneMovel;
+    }
+
+    function getId() {
+        return $this->id;
+    }
+
+    function getNumero() {
+        return $this->numero;
+    }
+
+    function getCidade() {
+        return $this->cidade;
+    }
+
+    function getUf() {
+        return $this->uf;
+    }
+
+    function getFoneFixo() {
+        return $this->foneFixo;
+    }
+
+    function getEmail() {
+        return $this->email;
+    }
+
+    function setFoneMovel($foneMovel) {
+        $this->foneMovel = $foneMovel;
+    }
+
+    function setId($id) {
+        $this->id = $id;
+    }
+
+    function setNumero($numero) {
+        $this->numero = $numero;
+    }
+
+    function setCidade($cidade) {
+        $this->cidade = $cidade;
+    }
+
+    function setUf($uf) {
+        $this->uf = $uf;
+    }
+
+    function setFoneFixo($foneFixo) {
+        $this->foneFixo = $foneFixo;
+    }
+
+    function setEmail($email) {
+        $this->email = $email;
     }
 
 
