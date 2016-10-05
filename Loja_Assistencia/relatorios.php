@@ -1,5 +1,11 @@
 <?php
 include 'cabecalho.php';
+include 'bancodao.php';
+
+$bancodao = new bancodao($conexao);
+$bancodao = $bancodao->listaOs();
+
+
 ?>
 <html>
 
@@ -47,19 +53,22 @@ th, td {
 }
                             </style>
 
-                            <form method="post">
+                            <form method="post" action=".....">
 
+                                <table class="table-condensed" width="80%" align="center">
                                 <label id="Status">
-                                    <select name="Status">
-                                        <option selected value="Status">Status</option>
+                                    <select name="Status">                                        
                                         <option value="Aberta">Aberta</option>
                                         <option value="Fechada">Fechada</option>
                                         <option value="Aguardando">Aguardando</option>
                                     </select>
                                 </label>
 
-                                <label id="datIni">
-                                    <input  type="date"/>
+                                <label id="data">
+                                    <select name="data">
+                                        <option value="DataInicial">Data de Inicio</option>
+                                        <option value="DataFinal">Data de Encerramento</option>
+                                    </select>
                                 </label>
 
                                 <label id="datFim">
@@ -72,7 +81,8 @@ th, td {
 
                                 <label id="pesquisar">
                                     <input class="btn btn-primary" type="submit" value="Pesquisar"/>
-                                </label>  
+                                </label> 
+                                    </table>
 
                             </form>
                             <form method="post">
@@ -95,6 +105,16 @@ th, td {
                                         <td class="tg-yw4l" class="form-control"></td>
                                         <td class="tg-yw4l" class="form-control"></td>
                                     </tr>
+                                    <?php
+                                    foreach ($bancodao as $value)
+                                            echo "<tr><td>" . $value->getId(). "</td>";
+                                            echo "<td>" . $value->getNome() . "</td>";
+                                            echo "<td>" . $value->getDataAber() . "</td>";
+                                            echo "<td>" . $value->getDataFecha() . "</td>";
+                                            echo "<td>" . $value->getCliente() . "</td>";
+                                            echo "<td>" . (($value->getPeças()) ? "Sim" : "Não") . "</td>";
+                                            echo "<td>" . (($value->getGarantia()) ? "Sim" : "Não") . "</td>";
+                                                                        ?>
                                     
                                 </table>
                             </form>
