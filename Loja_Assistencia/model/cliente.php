@@ -10,11 +10,19 @@ class cliente {
     private $foneMovel;
     private $id;
     private $numero;
+    private $bairro;
     private $cidade;
     private $uf;
     private $foneFixo;
     private $email;
-            
+    
+    function getBairro() {
+        return $this->bairro;
+    }
+
+    function setBairro($bairro) {
+        $this->bairro = $bairro;
+    }
     
     
     function getNome() {
